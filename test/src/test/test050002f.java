@@ -2,20 +2,25 @@ package test;
 
 /**
  * 設問２︓5の階乗を求める(for)。
+
+ * @date 作成日:2020/10/12
+ * @date 修正日:2020/10/12
+ * @version 1.1
  * @author MM
- *
  */
 public class test050002f {
 
 	public static void main(String[] args) {
-		int i = 1;//かけざん０がならない
-		//配列の要素を出力する
-		for (int l = 1; l <= 5; l++) {
-			i=i*l;//掛け算求める
+
+		int mcl = 1;//かけざん０がならない
+		//変数loop
+		for (int i = 5; i >= 1; i--) {
+			mcl = mcl * i;//掛け算求める
 
 		}
-		System.out.println(i);
 
+		//出力
+		System.out.println(mcl);
 	}
 
 }
