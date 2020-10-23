@@ -2,10 +2,10 @@ package test06;
 
 /**
 
-＊ 処理内容︓引数１のcharの配列先頭と末尾の空⽩⽂字列を削除してください。
-＊@author MM
-*@deta 2020/10/19
-*@version1.0
+ ＊ 処理内容︓引数１のcharの配列先頭と末尾の空⽩⽂字列を削除してください。
+ ＊@author MM
+ *@deta 2020/10/19
+ *@version1.0
  */
 
 public class test06003 {

@@ -20,9 +20,11 @@ public class test06005 {
 
 		int[] le = new int[] { 1, 22, 3, 4 };
 		int[] rig = new int[] { 7, 8, 99, 0 };
+		//メソッドを呼び出す
 		int[] arr = test06001.megerArray(le, rig);
+		//メソッドを呼び出す
 		int[] arr1 = test06004.bubbleSort(arr);
-
+		//出力
 		System.out.print(Arrays.toString(arr1));
 
 	}

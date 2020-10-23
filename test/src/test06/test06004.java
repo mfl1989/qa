@@ -16,14 +16,19 @@ public class test06004 {
 
 	public static void main(String[] args) {
 		int[] array = new int[] { 33, 2, 66, 222, 666, 44, 226, 857 };
+		//メソッドを呼び出す
 		int[] arr = bubbleSort(array);
+		//出力
 		System.out.print(Arrays.toString(arr));
 	}
 
+	//　　返却値型　　関数名　　引数　　　
 	public static int[] bubbleSort(int[] arr) {
+		//接収値定義する
 		int t = 0;
 		for (int i = 0; i < arr.length - 1; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
+				//loopして対比する
 				if (arr[i] > arr[j]) {
 					t = arr[i];
 					arr[i] = arr[j];
@@ -32,7 +37,7 @@ public class test06004 {
 
 			}
 		}
-
+		//戻り値
 		return arr;
 	}
 
